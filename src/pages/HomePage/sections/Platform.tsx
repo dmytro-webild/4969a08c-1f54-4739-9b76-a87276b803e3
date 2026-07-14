@@ -17,37 +17,37 @@ export default function PlatformSection(): React.JSX.Element {
             {
               title: "Deal Overview",
               description: "Unified project metrics.",
-              imageSrc: "http://img.b2bpic.net/free-photo/determined-ceo-works-office-analyzing-infographics-setting-business-goals_482257-116818.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2070",
             },
             {
               title: "Covenant Status",
               description: "Continuous tracking.",
-              imageSrc: "http://img.b2bpic.net/free-photo/notebook-economy-chart_23-2148542001.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1974",
             },
             {
               title: "Reconciliation",
               description: "Model vs Source data.",
-              imageSrc: "http://img.b2bpic.net/free-photo/advisory-board-members-team-leaders-gathering-review-project-outcomes_482257-115651.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=2076",
             },
             {
               title: "Assessment Flow",
               description: "AI-drafted reports.",
-              imageSrc: "http://img.b2bpic.net/free-photo/advisory-board-members-meeting-boardroom-establish-future-development-plan_482257-113859.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2015",
             },
             {
               title: "Evidence Store",
               description: "Traceable documents.",
-              imageSrc: "http://img.b2bpic.net/free-photo/closeup-african-american-entrepreneur-analyzing-company-profit_482257-20207.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=2070",
             },
             {
               title: "Drawdown Progress",
               description: "Funding status.",
-              imageSrc: "http://img.b2bpic.net/free-photo/computer-dark-room-with-graphs-screen_169016-57447.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?auto=format&fit=crop&q=80&w=2064",
             },
             {
               title: "Approval Gates",
               description: "Human controls.",
-              imageSrc: "http://img.b2bpic.net/free-photo/forecast-expert-ceo-analyzing-investment-insights-negotiations-details_482257-116884.jpg",
+              imageSrc: "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&q=80&w=2064",
             },
           ]}
           textAnimation="fade-blur"
