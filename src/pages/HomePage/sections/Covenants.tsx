@@ -10,34 +10,12 @@ export default function CovenantsSection(): React.JSX.Element {
     <div id="covenants" data-section="covenants">
         <SectionErrorBoundary name="covenants">
               <FeaturesArrowCards
-          tag="COVENANT TESTING"
-          title="Adaptive Covenants"
-          description="Covenants that evolve with the deal, not static spreadsheet checks."
-          items={[
-            {
-              title: "Threshold Monitoring",
-              tags: [
-                "Real-time",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/male-administrator-using-chroma-key-display-digital-analysis_482257-126246.jpg",
-            },
-            {
-              title: "Forecast Positioning",
-              tags: [
-                "Predictive",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/close-up-latest-financial-results-desk_1098-1983.jpg",
-            },
-            {
-              title: "Source Validation",
-              tags: [
-                "Audit",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/teleworker-home-office-gathering-information-from-internet-seminar_482257-119301.jpg",
-            },
-          ]}
-          textAnimation="fade-blur"
-        />
+        tag="COVENANT TESTING"
+        title="Adaptive Covenants"
+        description="Covenants that evolve with the deal, not static spreadsheet checks."
+        items={[{"tags":["Real-time"],"imageSrc":"https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=2000&auto=format&fit=crop","title":"Threshold Monitoring"},{"title":"Forecast Positioning","imageSrc":"https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?q=80&w=2000&auto=format&fit=crop","tags":["Predictive"]},{"title":"Source Validation","tags":["Audit"],"imageSrc":"https://images.unsplash.com/photo-1633412802994-5c058f151b66?q=80&w=2000&auto=format&fit=crop"}]}
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );

@@ -15,39 +15,39 @@ export default function PlatformSection(): React.JSX.Element {
           description="High-fidelity interface design providing visibility across every critical deal component."
           items={[
             {
-              title: <span className="text-white">Deal Overview</span>,
-              description: <span className="text-white/90">Unified project metrics.</span>,
-              imageSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=2070",
+              title: "Deal Overview",
+              description: "Unified project metrics.",
+              imageSrc: "http://img.b2bpic.net/free-photo/joyful-businesswoman-holding-tablet_74855-2024.jpg",
             },
             {
-              title: <span className="text-white">Covenant Status</span>,
-              description: <span className="text-white/90">Continuous tracking.</span>,
-              imageSrc: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&q=80&w=1974",
+              title: "Covenant Status",
+              description: "Continuous tracking.",
+              imageSrc: "http://img.b2bpic.net/free-photo/happy-executive-looking-information_1098-2091.jpg",
             },
             {
-              title: <span className="text-white">Reconciliation</span>,
-              description: <span className="text-white/90">Model vs Source data.</span>,
-              imageSrc: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=2076",
+              title: "Reconciliation",
+              description: "Model vs Source data.",
+              imageSrc: "http://img.b2bpic.net/free-photo/cheerful-multiracial-business-team_1262-21007.jpg",
             },
             {
-              title: <span className="text-white">Assessment Flow</span>,
-              description: <span className="text-white/90">AI-drafted reports.</span>,
-              imageSrc: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=2015",
+              title: "Assessment Flow",
+              description: "AI-drafted reports.",
+              imageSrc: "http://img.b2bpic.net/free-photo/smiling-corporate-businesswoman_23-2147702111.jpg",
             },
             {
-              title: <span className="text-white">Evidence Store</span>,
-              description: <span className="text-white/90">Traceable documents.</span>,
-              imageSrc: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&q=80&w=2070",
+              title: "Evidence Store",
+              description: "Traceable documents.",
+              imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessmen-their-office_1098-81.jpg",
             },
             {
-              title: <span className="text-white">Drawdown Progress</span>,
-              description: <span className="text-white/90">Funding status.</span>,
-              imageSrc: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?auto=format&fit=crop&q=80&w=2064",
+              title: "Drawdown Progress",
+              description: "Funding status.",
+              imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-with-arms-crossed-outside-modern-office-building_1139-1077.jpg",
             },
             {
-              title: <span className="text-white">Approval Gates</span>,
-              description: <span className="text-white/90">Human controls.</span>,
-              imageSrc: "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&q=80&w=2064",
+              title: "Approval Gates",
+              description: "Human controls.",
+              imageSrc: "http://img.b2bpic.net/free-photo/elegant-business-woman-front-glass-building_23-2147704436.jpg",
             },
           ]}
           textAnimation="fade-blur"
