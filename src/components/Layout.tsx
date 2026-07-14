@@ -1,5 +1,5 @@
 import FooterMinimal from '@/components/sections/footer/FooterMinimal';
-import NavbarFloatingLogo from '@/components/ui/NavbarFloatingLogo';
+import NavbarFloating from '@/components/ui/NavbarFloating';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
 import { Linkedin, Twitter } from "lucide-react";
@@ -42,7 +42,7 @@ export default function Layout() {
     <StyleProvider buttonVariant="arrow" siteBackground="floatingGradient" heroBackground="cornerGlow">
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
-        <NavbarFloatingLogo
+        <NavbarFloating
       logo="Fidaris"
       logoImageSrc="https://storage.googleapis.com/webild/users/user_3GU1gv0194AL2KrpwHYY6DRZ6x6/uploaded-1784015144708-2nd8rk06.png"
       ctaButton={{
