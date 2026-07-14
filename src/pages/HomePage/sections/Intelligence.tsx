@@ -10,13 +10,13 @@ export default function IntelligenceSection(): React.JSX.Element {
     <div id="intelligence" data-section="intelligence">
         <SectionErrorBoundary name="intelligence">
               <AboutTestimonial
-          tag="INTELLIGENCE"
-          quote="Specialist AI agents draft assessments across six disciplines. Every decision, however, remains visible, reviewable, and human-approved. Intelligence without losing control."
-          author="Fidaris Engineering Team"
-          role="Platform Governance"
-          imageSrc="http://img.b2bpic.net/free-photo/woman-working-late-project_23-2149006067.jpg"
-          textAnimation="fade-blur"
-        />
+        tag="INTELLIGENCE"
+        quote="Specialist AI agents draft assessments across six disciplines. Every decision, however, remains visible, reviewable, and human-approved. Intelligence without losing control."
+        author="Fidaris Engineering Team"
+        role="Platform Governance"
+        imageSrc="http://img.b2bpic.net/free-photo/faces-close-up-smiling-executives_1098-1829.jpg"
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );

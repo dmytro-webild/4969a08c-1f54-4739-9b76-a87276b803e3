@@ -10,27 +10,20 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero">
         <SectionErrorBoundary name="hero">
               <HeroSplitMediaGrid
-          tag="FIDARIS DEVELOPMENT FINANCE"
-          title="TRUST, UNDERWRITTEN."
-          description="The live development-finance platform where developers, lenders, and every critical number meet. Build the deal once. Reconcile every source. Move from feasibility to credit decision with full visibility."
-          primaryButton={{
+        tag="FIDARIS DEVELOPMENT FINANCE"
+        title="TRUST, UNDERWRITTEN."
+        description="The live development-finance platform where developers, lenders, and every critical number meet. Build the deal once. Reconcile every source. Move from feasibility to credit decision with full visibility."
+        primaryButton={{
             text: "Request a Demo",
             href: "#contact",
           }}
-          secondaryButton={{
+        secondaryButton={{
             text: "Explore the Platform",
             href: "#platform",
           }}
-          items={[
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/patriot-day-commemoration-high-angle_52683-94469.jpg",
-            },
-            {
-              imageSrc: "http://img.b2bpic.net/free-photo/future-visions-business-technology-concept_23-2151893436.jpg",
-            },
-          ]}
-          textAnimation="fade-blur"
-        />
+        items={[{"imageSrc":"https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?q=80&w=2670&auto=format&fit=crop"},{"imageSrc":"https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?q=80&w=2000&auto=format&fit=crop"}]}
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );
