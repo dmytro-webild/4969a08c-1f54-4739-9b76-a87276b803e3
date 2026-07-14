@@ -15,38 +15,38 @@ export default function PlatformSection(): React.JSX.Element {
           description="High-fidelity interface design providing visibility across every critical deal component."
           items={[
             {
-              title: <span className="text-white">Deal Overview</span>,
-              description: <span className="text-white/90">Unified project metrics.</span>,
+              title: "Deal Overview",
+              description: "Unified project metrics.",
               imageSrc: "http://img.b2bpic.net/free-photo/joyful-businesswoman-holding-tablet_74855-2024.jpg",
             },
             {
-              title: <span className="text-white">Covenant Status</span>,
-              description: <span className="text-white/90">Continuous tracking.</span>,
+              title: "Covenant Status",
+              description: "Continuous tracking.",
               imageSrc: "http://img.b2bpic.net/free-photo/happy-executive-looking-information_1098-2091.jpg",
             },
             {
-              title: <span className="text-white">Reconciliation</span>,
-              description: <span className="text-white/90">Model vs Source data.</span>,
+              title: "Reconciliation",
+              description: "Model vs Source data.",
               imageSrc: "http://img.b2bpic.net/free-photo/cheerful-multiracial-business-team_1262-21007.jpg",
             },
             {
-              title: <span className="text-white">Assessment Flow</span>,
-              description: <span className="text-white/90">AI-drafted reports.</span>,
+              title: "Assessment Flow",
+              description: "AI-drafted reports.",
               imageSrc: "http://img.b2bpic.net/free-photo/smiling-corporate-businesswoman_23-2147702111.jpg",
             },
             {
-              title: <span className="text-white">Evidence Store</span>,
-              description: <span className="text-white/90">Traceable documents.</span>,
+              title: "Evidence Store",
+              description: "Traceable documents.",
               imageSrc: "http://img.b2bpic.net/free-photo/smiling-businessmen-their-office_1098-81.jpg",
             },
             {
-              title: <span className="text-white">Drawdown Progress</span>,
-              description: <span className="text-white/90">Funding status.</span>,
+              title: "Drawdown Progress",
+              description: "Funding status.",
               imageSrc: "http://img.b2bpic.net/free-photo/senior-businessman-with-arms-crossed-outside-modern-office-building_1139-1077.jpg",
             },
             {
-              title: <span className="text-white">Approval Gates</span>,
-              description: <span className="text-white/90">Human controls.</span>,
+              title: "Approval Gates",
+              description: "Human controls.",
               imageSrc: "http://img.b2bpic.net/free-photo/elegant-business-woman-front-glass-building_23-2147704436.jpg",
             },
           ]}
