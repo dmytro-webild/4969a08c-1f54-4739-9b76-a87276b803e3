@@ -10,53 +10,12 @@ export default function StorytellingSection(): React.JSX.Element {
     <div id="storytelling" data-section="storytelling">
         <SectionErrorBoundary name="storytelling">
               <FeaturesArrowCards
-          tag="THE DEAL LIFECYCLE"
-          title="Controlled, Accountable, Live."
-          description="Progressively reconciled data moving from initial feasibility to final credit approval in a single controlled environment."
-          items={[
-            {
-              title: "Build: One model starts the deal.",
-              tags: [
-                "Feasibility",
-                "Modeling",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/still-life-graphics-arrangement_23-2148991185.jpg",
-            },
-            {
-              title: "Reconcile: Figures brought to agreement.",
-              tags: [
-                "QS",
-                "Valuation",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/futuristic-time-machine_23-2151599406.jpg",
-            },
-            {
-              title: "Test: Live covenant verification.",
-              tags: [
-                "Covenants",
-                "Funding",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/futuristic-time-machine_23-2151599423.jpg",
-            },
-            {
-              title: "Assess: Specialist AI, human decision.",
-              tags: [
-                "AI Agents",
-                "Approval",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/glowing-digital-sphere-futuristic-environment_23-2152020906.jpg",
-            },
-            {
-              title: "Approve: Credit decision achieved.",
-              tags: [
-                "Credit",
-                "Audit",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/3d-abstract-background-with-landscape-blocks_1048-12498.jpg",
-            },
-          ]}
-          textAnimation="fade-blur"
-        />
+        tag="FIDARIS DEVELOPMENT FINANCE"
+        title="TRUST, UNDERWRITTEN."
+        description="The live development-finance platform where developers, lenders, and every critical number meet. Build the deal once. Reconcile, test, and assess in real time."
+        items={[{"tags":["Feasibility","Modeling"],"imageSrc":"https://storage.googleapis.com/webild/users/user_3GU1gv0194AL2KrpwHYY6DRZ6x6/uploaded-1784015547277-hbqdxixd.jpg","title":"Build: One model starts the deal."},{"tags":["QS","Valuation"],"title":"Reconcile: Figures brought to agreement.","imageSrc":"https://storage.googleapis.com/webild/users/user_3GU1gv0194AL2KrpwHYY6DRZ6x6/uploaded-1784015547278-9a58a7ol.png"},{"tags":["Covenants","Funding"],"title":"Test: Live covenant verification.","imageSrc":"http://img.b2bpic.net/free-photo/futuristic-time-machine_23-2151599423.jpg"},{"imageSrc":"http://img.b2bpic.net/free-photo/glowing-digital-sphere-futuristic-environment_23-2152020906.jpg","title":"Assess: Specialist AI, human decision.","tags":["AI Agents","Approval"]},{"tags":["Credit","Audit"],"title":"Approve: Credit decision achieved.","imageSrc":"http://img.b2bpic.net/free-photo/3d-abstract-background-with-landscape-blocks_1048-12498.jpg"}]}
+        textAnimation="fade-blur"
+      />
         </SectionErrorBoundary>
       </div>
   );
