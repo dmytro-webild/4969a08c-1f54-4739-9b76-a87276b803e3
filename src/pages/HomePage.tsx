@@ -5,33 +5,36 @@
 // become component refs.
 
 import React from 'react';
-import HeroSection from './HomePage/sections/Hero';
-import StorytellingSection from './HomePage/sections/Storytelling';
 import PlatformSection from './HomePage/sections/Platform';
 import ReconciliationSection from './HomePage/sections/Reconciliation';
-import CovenantsSection from './HomePage/sections/Covenants';
 import IntelligenceSection from './HomePage/sections/Intelligence';
-import SecuritySection from './HomePage/sections/Security';
 import ContactSection from './HomePage/sections/Contact';
 
-export default function HomePage(): React.JSX.Element {
+
+import HeroSection from './HomePage/sections/Hero';
+import SecuritySection from './HomePage/sections/Security';
+import CovenantsSection from './HomePage/sections/Covenants';
+
+{/* webild-stub @2026-07-14T11:19:41.352Z: Completely redesign the website to reflect a cohesive, lender-grade financial platform. This includes creating a new cinematic hero section with floating navigation and a 3D-integrated product visual, redesigning the "Designed for Decisions */}
+
+import StorytellingSection from './HomePage/sections/Storytelling';export default function HomePage(): React.JSX.Element {
   return (
 <>
-  <HeroSection />
 
-  <StorytellingSection />
 
   <PlatformSection />
 
   <ReconciliationSection />
 
-  <CovenantsSection />
 
   <IntelligenceSection />
 
-  <SecuritySection />
 
   <ContactSection />
+          <HeroSection />
+      <SecuritySection />
+      <CovenantsSection />
+          <StorytellingSection />
     </>
   );
 }
