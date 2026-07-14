@@ -6,6 +6,7 @@ import Button from "@/components/ui/Button";
 
 interface NavbarFloatingProps {
   logo: string;
+  logoImageSrc?: string;
   navItems: { name: string; href: string }[];
   ctaButton: { text: string; href: string };
 }
@@ -19,7 +20,7 @@ const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string, on
   onClose?.();
 };
 
-const NavbarFloating = ({ logo, navItems, ctaButton }: NavbarFloatingProps) => {
+const NavbarFloating = ({ logo, logoImageSrc, navItems, ctaButton }: NavbarFloatingProps) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
