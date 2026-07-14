@@ -56,7 +56,7 @@ export default function Layout() {
       </main>
       <SectionErrorBoundary name="footer">
         <FooterMinimal
-      brand="Fidaris — pronounced fih-DAH-ris."
+      brand="Fidaris"
       copyright="© 2024 Fidaris Finance Technology. All rights reserved."
       socialLinks={[
         {
