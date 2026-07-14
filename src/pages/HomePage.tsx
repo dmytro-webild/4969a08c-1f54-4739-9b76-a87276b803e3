@@ -14,12 +14,10 @@ import IntelligenceSection from './HomePage/sections/Intelligence';
 import SecuritySection from './HomePage/sections/Security';
 import ContactSection from './HomePage/sections/Contact';
 
-
-import TrustedBySection from './HomePage/sections/TrustedBy';export default function HomePage(): React.JSX.Element {
+export default function HomePage(): React.JSX.Element {
   return (
 <>
   <HeroSection />
-      <TrustedBySection />
 
   <StorytellingSection />
 
