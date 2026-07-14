@@ -44,6 +44,7 @@ export default function Layout() {
       <SectionErrorBoundary name="navbar">
         <NavbarFloating
       logo="Fidaris"
+      logoImageSrc="https://storage.googleapis.com/webild/users/user_3GU1gv0194AL2KrpwHYY6DRZ6x6/uploaded-1784015144708-2nd8rk06.png"
       ctaButton={{
         text: "Request a Demo",
         href: "#contact",
