@@ -13,7 +13,7 @@ export default function StorytellingSection(): React.JSX.Element {
         tag="FIDARIS DEVELOPMENT FINANCE"
         title="TRUST, UNDERWRITTEN."
         description="The live development-finance platform where developers, lenders, and every critical number meet. Build the deal once. Reconcile, test, and assess in real time."
-        items={[{"tags":["Feasibility","Modeling"],"imageSrc":"https://images.unsplash.com/photo-1633412802994-5c058f151b66?q=80&w=2000&auto=format&fit=crop","title":"Build: One model starts the deal."},{"imageSrc":"https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=2000&auto=format&fit=crop","title":"Assess: Specialist AI, human decision.","tags":["AI Agents","Approval"]},{"tags":["Credit","Audit"],"title":"Approve: Credit decision achieved.","imageSrc":"https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=2000&auto=format&fit=crop"}]}
+        items={[{"tags":["Feasibility","Modeling"],"imageSrc":"https://images.unsplash.com/photo-1633412802994-5c058f151b66?q=80&w=2000&auto=format&fit=crop","title":"Build: One model starts the deal."}]}
         textAnimation="fade-blur"
       />
         </SectionErrorBoundary>
